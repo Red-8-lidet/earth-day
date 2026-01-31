@@ -1,7 +1,7 @@
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { setupScene } from './scene.js';
 import { createEarth } from './earth.js';
-import { initInteraction } from './Interaction.js';
+import { initInteraction } from './interaction.js';
 
 const { scene, camera, renderer } = setupScene();
 const globe = createEarth(scene);
